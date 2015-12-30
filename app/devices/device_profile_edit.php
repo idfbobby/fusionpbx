@@ -383,36 +383,7 @@ foreach($device_keys as $row) {
 				break;
 
 			case "aastra":
-				if ($row['device_key_category'] == "expansion-1" || $row['device_key_category'] == "expansion") {
-					echo "	<option value='expansion-1' selected='selected'>".$text['label-expansion']." 1</option>\n";
-				}
-				else {
-					echo "	<option value='expansion-1'>".$text['label-expansion']." 1</option>\n";
-				}
-				if ($row['device_key_category'] == "expansion-2") {
-					echo "	<option value='expansion-2' selected='selected'>".$text['label-expansion']." 2</option>\n";
-				}
-				else {
-					echo "	<option value='expansion-2'>".$text['label-expansion']." 2</option>\n";
-				}
-				if ($row['device_key_category'] == "expansion-3") {
-					echo "	<option value='expansion-3' selected='selected'>".$text['label-expansion']." 3</option>\n";
-				}
-				else {
-					echo "	<option value='expansion-3'>".$text['label-expansion']." 3</option>\n";
-				}
-				if ($row['device_key_category'] == "top-key") {
-					echo "	<option value='top-key' selected='selected'>".$text['label-programmable']." Top-Key</option>\n";
-				}
-				else {
-					echo "	<option value='top-key'>".$text['label-programmable']." Top-Key</option>\n";
-				}
-				if ($row['device_key_category'] == "bottom-key") {
-					echo "	<option value='bottom-key' selected='selected'>".$text['label-programmable']." Bottom-Key</option>\n";
-				}
-				else {
-					echo "	<option value='bottom-key'>".$text['label-programmable']." Bottom-Key</option>\n";
-				}
+
 				break;
 
 			default:
